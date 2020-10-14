@@ -11,5 +11,9 @@
 
   <body>
     <%= yield %>
+    <%= link_to "All Campers", campers_path %>
+    <%= link_to "All Activities", activities_path %>
+    <%= link_to "Signup A Current Camper to an Activity", new_signup_path %>
+    <%= link_to "Create a New Camper!", new_camper_path %>
   </body>
 </html>
